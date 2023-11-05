@@ -26,6 +26,7 @@ const Nav = () => {
         />
         <p className="logo_text">Promptopia</p>
       </Link>
+      {alert(session?.user)}
 
       {/* Deskop navigation */}
       <div className="sm:flex hidden">
